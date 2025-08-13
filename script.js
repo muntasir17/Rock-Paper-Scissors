@@ -31,6 +31,7 @@ if(ComputerChoise === yourCHoise){
 }else{
     winner = "Computer Win";
 }
-winnerMessage.innerHTML = `You Choose ${yourCHoise}. Computer Choose ${ComputerChoise}. Result ${winner}`
+winnerMessage.innerHTML = `You Choose ${yourCHoise}. Computer Choose ${ComputerChoise}. Result : ${winner}`
   });
+
 });
